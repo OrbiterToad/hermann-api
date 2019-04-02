@@ -22,7 +22,7 @@ import java.util.List;
 
 @CrossOrigin
 @RestController
-@RequestMapping("message")
+@RequestMapping("api/message")
 public class MessageController {
 
     private MessageRepository messageRepository;

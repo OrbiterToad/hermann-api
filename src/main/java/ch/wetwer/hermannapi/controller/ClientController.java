@@ -22,7 +22,7 @@ import java.util.List;
 
 @CrossOrigin
 @RestController
-@RequestMapping("client")
+@RequestMapping("api/client")
 public class ClientController {
 
     private ClientRepository clientRepository;

@@ -41,7 +41,6 @@ public class Client {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "client")
     private List<Message> messages;
 
-    @JsonIgnore
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "client")
     private List<Image> images;
 
